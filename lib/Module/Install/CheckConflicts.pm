@@ -3,6 +3,8 @@ use warnings;
 
 package Module::Install::CheckConflicts;
 
+require Module::Install::Base;
+
 BEGIN {
     our $VERSION = '0.01';
     our $ISCORE  = 1;
